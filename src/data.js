@@ -1,0 +1,55 @@
+export const compounds = [
+    {
+        comp_index : 1,
+        comp_materials: "Benzene",
+        comp_notation: "C6H6",
+        comp_mol2: {
+            "name" : "Benzene",
+            "molecular_formula" : "C6H6",
+            "molecular_weight" : 78.11,
+            "smile" : "C1=CC=CC=C1",
+            "C1": "-0.7600    1.1691   -0.0005 C.ar",
+            "C2": "0.6329    1.2447   -0.0012 C.ar",
+            "C3": "1.3947    0.0765    0.0004 C.ar ",
+            "C4": "0.7641   -1.1677    0.0027 C.ar",
+            "C5": "-0.6288   -1.2432    0.0001 C.ar",
+            "C6": "-1.3907   -0.0751   -0.0015 C.ar",
+            "H7": "-1.3536    2.0792    0.0005 H",
+            "H8": "1.1243    2.2140   -0.0028 H",
+            "H9": "2.4799    0.1355   -0.0000 H",
+            "H10": "1.3576   -2.0778    0.0063 H ",
+            "H11": "-1.1202   -2.2126   -0.0005 H",
+            "H12": "-2.4759   -0.1340   -0.0035 H",
+        }
+    },
+    {
+        comp_index : 2,
+        comp_materials: "Water",
+        comp_notation: "H2O",
+        comp_mol2: "mol2",
+    },
+    {
+        comp_index : 3,
+        comp_materials: "Sodium Chloride",
+        comp_notation: "NaCl",
+        comp_mol2: "mol2",
+    },
+    {
+        comp_index : 4,
+        comp_materials: "Carbon Dioxide",
+        comp_notation: "CO2",
+        comp_mol2: "mol2",
+    },
+    {
+        comp_index : 5,
+        comp_materials: "Sulfuric Acid",
+        comp_notation: "H2SO4",
+        comp_mol2: "mol2",
+    },
+    {
+        comp_index : 6,
+        comp_materials: "Sodium Hydroxide",
+        comp_notation: "NaOH",
+        comp_mol2: "mol2",
+    },
+];

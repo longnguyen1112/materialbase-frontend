@@ -1,0 +1,42 @@
+.header{
+    color: rgb(84, 82, 82);
+    text-align: left;
+    padding: 20px 0px 15px 10px; 
+    flex:1;
+    border-bottom : 1px solid rgb(84, 82, 82);
+}
+.notation{
+    padding-top:50px;
+    float:right;
+    flex:3;
+    border-bottom : 1px solid rgb(84, 82, 82);
+}
+.top
+{
+    display: flex;
+}
+.bot{
+    
+    display: flex;
+}
+.bot-left{
+    border: 3px solid rgb(47, 122, 227);
+    height: 100vh;
+    width: 70%;
+    margin:3%;
+    flex:3;
+}
+.bot-right{
+    border: 1px solid rgb(84, 82, 82);
+    height: 50vh;
+    width: 50%;
+    margin:3%;
+    flex:1;
+}
+p{
+    text-align: left;
+    padding:5px;
+}
+button, h4{
+    margin:5px;
+}
