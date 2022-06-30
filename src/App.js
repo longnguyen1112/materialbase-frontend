@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Component/Header/Header';
 import Admin from './Component/Admin/Admin';
-import Add from './Component/Add/Add';
+import Add from './Component/Add/AddCompound';
 import ViewDetail from './Component/ViewDetail/ViewDetail';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ViewListContainer from './Component/ViewList/ViewListContainer';

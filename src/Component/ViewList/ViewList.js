@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { retrieveCompound, retrieveCompounds, findCompoundByTitle, deleteAllCompounds } from '../../Compounds/Action/compoundAction';
 
-const ViewList = ({idx, materials, notations, mol2}) => {
+const ViewList = ({idx, materials, notations, component}) => {
   //initial state
   const [currentCompound, setCurrentCompound] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(-1);
@@ -93,19 +93,14 @@ const ViewList = ({idx, materials, notations, mol2}) => {
 	};
 
   return (
-    <div>
-      <table>
-        <tbody>
-          <tr className='even'>
-            <th className='i' scope='row'>{idx}</th>
-            <td className='m' >{materials}</td>
-            <td className='n'>{notations}</td>
-            <td className='m2'>{mol2}</td>
-            <td><Link to={"/compounds/:"+ idx} className='detail-button'><button>Details</button></Link></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+	<tr>
+		<th scope='row'>{idx}</th>
+		<th>{materials}</th>
+		<td>{notations}</td>
+		<td>{component}</td>
+		<td><Link to={"/compounds/"+ idx} className='detail-button'><button>Detail</button></Link></td>
+		<td><button>Download</button></td>
+	</tr>
   )
 }
 

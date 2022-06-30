@@ -1,13 +1,15 @@
 table{
+    width: 100%;
     border-collapse: collapse;
+}
+
+tbody{
+    display: block;
+    overflow-y: auto;
+    height: 70vh;
     width: 100%;
 }
 
-button:focus
-{
-  outline:1;
-  border:1px solid blue;
-}
 button:hover {
     background:#444;
     color: #fff;
@@ -19,13 +21,14 @@ button:hover {
 
 h1{
     color: rgb(84, 82, 82);
-    padding-bottom: 20px;
     padding-top: 20px;
     float:left;
 }
 
-.has-search .form-control {
-    padding-left: 2.375rem;
+.form-control {
+    padding-left: 1.5rem;
+    margin: auto;
+
 }
 
 
@@ -38,45 +41,34 @@ th, td {
     text-align: left;
     border: 1px solid #ccc;
     height: 10vh;
+    width: 15vh;
 }
+
+tr th:nth-child(2)
+{
+    width: 40vh;
+}
+tr th:nth-child(3)
+{
+    width:93vh;
+}
+tr th:nth-child(4)
+{
+    width: 30vh;
+}
+
 tbody tr:nth-child(odd) {
     background: #eee;
     height: 7vh;
 }
-  
 
-.i{
-    width: 15vh;
-    text-align: left;
+tbody tr:first-child{
+    top:0;
+    position: sticky;
 }
-.m{
-    width: 52vh;
-    text-align: left;
-    color : rgb(47, 122, 227);
-    font-size: large;
-}
-.n{
-    width: 50.5vh;
-    text-align: left;
-    color : rgb(47, 122, 227);
-    font-size: large;
-}
-.m2{
-    width: 42vh;
-    text-align: left;
-}
+
 .detail-button
 {
     text-align: center;
     width: 20.5vh;
 }
-
-/* tr td table
-{
-    margin-left:50px;
-    width:100%;
-}
-tr td table td
-{
-    padding: 0.25rem;
-} */
